@@ -1,6 +1,8 @@
-{
-  "users": {
-    "SAQI-90465356c5712916c381ecd7313b67a79f3f3e0ba3c5fb7787c36a9ba44f3e3c": 1767225600,
-    "DEVICE_HASH_2": 1769817600
-  }
+"b1a8c7f9e4c2d3a6f1e9c8b7a6d5e4c3b2a1f0e9d8c7b6a5f4e3d2c1b0": {
+  "name": "Ali",
+  "expiry": 1767225600
+}
+"c5139b6f2bc162d2dba2f638a1f9b8cf8b786b8de6488c20add6b01da3d50721": {
+  "name": "SAQI",
+  "expiry": 1767225600
 }
