@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
-python - << 'EOF'
+python - <<'EOF'
 import Dump
+Dump.sankey()
 EOF
