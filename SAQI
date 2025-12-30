@@ -1,6 +1,3 @@
 #!/bin/bash
 clear
-python - <<'EOF'
-import Dump
-Dump.sankey()
-EOF
+python -c "import Dump; Dump.sankey()"
