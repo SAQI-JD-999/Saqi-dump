@@ -1,16 +1,6 @@
 #!/bin/bash
-#python -c "import Dump; Dump.SAQI_APPROVAL()"
 clear
 echo "[•] Starting SAQI TOOL..."
-import platform, sys
-
-bit = platform.architecture()[0]
-
-if bit != "64bit":
-    print("❌ YOUR DEVICE IS 32 BIT")
-    print("❌ 32 BIT NOT SUPPORTED")
-    sys.exit(1)
-
 print("✅ YOUR DEVICE IS 64 BIT")
 print("[•] Loading SAQI TOOL...")
 python -c "import Dump; Dump.SAQI_APPROVAL()"
