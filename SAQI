@@ -2,8 +2,6 @@
 #python -c "import Dump; Dump.SAQI_APPROVAL()"
 clear
 echo "[•] Starting SAQI TOOL..."
-
-python - <<'EOF'
 import platform, sys
 
 bit = platform.architecture()[0]
