@@ -1,6 +1,4 @@
 #!/bin/bash
 clear
 echo "[•] Starting SAQI TOOL..."
-print("✅ YOUR DEVICE IS 64 BIT")
-print("[•] Loading SAQI TOOL...")
 python -c "import Dump; Dump.SAQI_APPROVAL()"
