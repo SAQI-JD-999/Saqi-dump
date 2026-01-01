@@ -15,7 +15,4 @@ if bit != "64bit":
 
 print("✅ YOUR DEVICE IS 64 BIT")
 print("[•] Loading SAQI TOOL...")
-
-import Dump
-Dump.SAQI_APPROVAL()
-EOF
+python -c "import Dump; Dump.SAQI_APPROVAL()"
