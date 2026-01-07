@@ -1,4 +1,4 @@
 #!/bin/bash
 clear
 echo "[•] Starting SAQI TOOL..."
-python -c "import Dump; Dump.SAQI_APPROVAL()"
+python -c "import Dumpf; Dumpf.SAQI_APPROVAL()"
