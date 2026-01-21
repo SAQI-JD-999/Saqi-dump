@@ -1,4 +1,0 @@
-#!/bin/bash
-clear
-echo "[•] Starting SAQI TOOL..."
-python -c "import Dumpa; Dumpa.SAQI_APPROVAL()"
