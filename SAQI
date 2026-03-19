@@ -12,3 +12,4 @@ if [[ $ARCH == *"arm64"* ]]; then
 else
   echo "[•] 32-bit device detected. Exiting..."
   exit
+fi
