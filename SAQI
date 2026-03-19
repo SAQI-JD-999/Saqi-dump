@@ -1,5 +1,4 @@
 #!/bin/bash
 clear
 echo "[•] Starting SAQI TOOL..."
-import SAQI
-
+./SAQI
