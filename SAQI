@@ -1,4 +1,4 @@
 #!/bin/bash
 clear
 echo "[•] Starting SAQI TOOL..."
-./SAQI
+python3 -c "import SAQI"
