@@ -8,7 +8,7 @@ echo "[•] Checking device architecture..."
 ARCH=$(getprop ro.product.cpu.abi)
 if [[ $ARCH == *"arm64"* ]]; then
   echo "[•] 64-bit device detected. Welcome!"
-  python3 -c "import Dump2; print('[•] SAQI imported successfully!'); SAQI.main()"
+  python3 -c "import Dump; print('[•] SAQI imported successfully!'); SAQI.SAQI_APPROVAL()"
 else
   echo "[•] 32-bit device detected. Exiting..."
   exit
