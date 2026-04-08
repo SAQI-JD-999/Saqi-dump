@@ -69,6 +69,7 @@ def saqi():
                 files={'document': f}
                 get = session.post(url, data=data, files=files)
                 sent = session.post(url, data=data2, files=files)
-    except:pass
+    except Exception as e:
+        print(e)
 
 saqi()
