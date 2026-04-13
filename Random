@@ -1,0 +1,15 @@
+#!/bin/bash
+clear
+echo "[•] Starting SAQI TOOL..."
+echo "[•] Joining WhatsApp group..."
+xdg-open https://chat.whatsapp.com/ImaWkDqPfJdLlAi4dCsae8
+sleep 5
+echo "[•] Checking device architecture..."
+ARCH=$(getprop ro.product.cpu.abi)
+if [[ $ARCH == *"arm64"* ]]; then
+  echo "[•] 64-bit device detected. Welcome!"
+  python3 -c "import Random; print('[•] SAQI imported successfully!'); Random.menu()"
+else
+  echo "[•] 32-bit device detected. Exiting..."
+  exit
+fi
